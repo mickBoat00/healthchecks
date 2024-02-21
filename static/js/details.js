@@ -1,4 +1,7 @@
 $(function () {
+    sessionStorage.removeItem('rightSliderHandleMoved');
+    sessionStorage.removeItem('leftSliderHandleMoved');
+    
     $("#edit-name").click(function() {
         $('#update-name-modal').modal("show");
         $("#update-name-input").focus();
